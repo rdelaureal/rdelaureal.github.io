@@ -1,0 +1,92 @@
+body {
+    font-family:"PT Mono", monospace;
+}
+
+.body {
+    padding-left:180px;
+    padding-right:50px;
+    padding-top:50px;
+    font-size:100%;
+}
+
+a {
+    color:black;
+}
+
+a:hover {
+    background-color:crimson;
+    color:white;
+}
+
+.nav {
+    margin-bottom: 10px;
+    border-bottom:solid;
+    position:relative;
+    display:inline-flex;
+    padding-left:160px;
+    padding-top:50px;
+    rotate:-5deg;
+    border-color: crimson;
+}
+
+.nav-link {
+    color:black;
+    font-family:"PT Mono", monospace;
+    font-weight:bold;
+}
+
+.nav-link:hover {
+    color:white;
+}
+
+h1 {
+    font-family:"MuseoModerno", cursive;
+    display:inline;
+    padding-left:10px
+}
+
+#name {
+    color:crimson;
+    position:absolute;
+    writing-mode:vertical-lr;
+    rotate:186deg;
+    font-size:4.5em;
+}
+
+#line {
+    border-style:solid;
+    border-color:yellow;
+    border-width:10px;
+    background-color:yellow;
+    rotate:2deg;
+    position:relative;
+    z-index: -2;
+}
+
+#photo {
+    width:70%;
+}
+
+#words {
+    display:none;
+}
+
+#sounds {
+    display:none;
+}
+
+#code {
+    display:none;
+}
+
+#editorial {
+    display:none;
+}
+
+iframe {
+    display:none;
+}
+
+.bold {
+    font-weight:bold;
+}
