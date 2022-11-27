@@ -65,6 +65,17 @@ document.addEventListener('DOMContentLoaded', function() {
 function showPlayer (event) {
     let link = event.target;
     let frame = link.parentNode.parentNode.childNodes[3];
-    console.log(frame);
-    frame.style.display = 'block';
+    let allFrames = document.querySelectorAll('iframe');
+    allFrames.forEach(function(item) {
+        if (frame === item) {
+            console.log(frame);
+            if (frame.style.display === 'block') {
+                frame.style.display = 'none';
+            } else {
+                frame.style.display = 'block';
+            }
+        } else {
+            item.style.display = 'none';
+        }
+    })
 }
